@@ -1,0 +1,37 @@
+---
+title: Trip ideas
+---
+
+
+<div class="padded">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="text-center padded-bottom">
+          <h1>Juste pour le Weekend</h1>
+          <p>Découvrez de nouveaux logements incroyables près de chez vous.</p>
+        </div>
+      </div>
+    </div>
+    <!-- TODO: COPIER LE SCHEMA DES CARD QUON A DEJA -->
+    <% data.trips.each do  |trip| %>
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <div class="banner banner-margin text-center" style="background-image: url(<%= trip.picture1 %>);">
+              <h2 class="banner-content"><%= trip.name1 %> </h2>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="banner banner-margin text-center" style="background-image: url(<%= trip.picture2 %>);">
+            <h2 class="banner-content"><%= trip.name2 %></h2>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="banner banner-margin text-center" style="background-image: url(<%= trip.picture3 %>);">
+            <h2 class="banner-content"><%= trip.name3 %></h2>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

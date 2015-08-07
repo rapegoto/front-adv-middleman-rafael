@@ -1,10 +1,14 @@
 ---
 title: Le Wagon Middleman Contact
 ---
+<div class="text-center padded">
+  <h1>The super Team</h1>
 
-<h1>The super Team</h1>
-<ul>
-  <li>Nathalie</li>
-  <li>Rafael</li>
-  <li>Paul</li>
-</ul>
+  <% data.team.each do  |member| %>
+    <div class="">
+      <%= image_tag member.picture%>
+      <h2><%= member.name %></h2>
+      <p><%= member.description %></p>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,19 @@
+# trips.yml
+- name1: Solitude
+  picture1: https://unsplash.it/720/600?image=732
+  description1: Enjoy with your self.
+  name2: Farm
+  picture2:  https://unsplash.it/500/400?image=729
+  description2:  Go to be with nature
+  name3: Sunset
+  picture3:  https://unsplash.it/500/400?image=695
+  description3:  Beautiful sunsets in the landscape
+- name1: Mountain
+  picture1: https://unsplash.it/720/600?image=699
+  description1: green!!!.
+  name2: City
+  picture2:  https://unsplash.it/500/400?image=703
+  description2:  Go to be with nature
+  name3: Little mountains
+  picture3:  https://unsplash.it/200/300?image=688
+  description3:  road and mountain :)

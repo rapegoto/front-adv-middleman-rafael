@@ -1,7 +1,7 @@
 .banner {
   background-size: cover;
   color: white;
-  padding: 100px;
+  padding: 100px 0; //i added the padding 0 for sides
   position: relative;
   z-index: 0;
   &-shadow {
