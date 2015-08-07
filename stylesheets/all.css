@@ -9279,6 +9279,10 @@ button.close {
 .bg-facebook {
   background: #3b5998; }
 
+/* line 27, /Users/rapegoto/code/rapegoto/front-adv-middleman-rafael/source/stylesheets/layout/_utilities.css.scss */
+.padded-bottom {
+  padding-bottom: 2em; }
+
 /* line 1, /Users/rapegoto/code/rapegoto/front-adv-middleman-rafael/source/stylesheets/components/_avatar.scss */
 .avatar {
   width: 30px;
@@ -9336,7 +9340,7 @@ button.close {
 .banner {
   background-size: cover;
   color: white;
-  padding: 100px;
+  padding: 100px 0;
   position: relative;
   z-index: 0; }
   /* line 7, /Users/rapegoto/code/rapegoto/front-adv-middleman-rafael/source/stylesheets/components/_banner.css.scss */
@@ -9390,8 +9394,8 @@ button.close {
   font-size: 10px;
   text-transform: uppercase;
   position: absolute;
-  top: 10px;
-  left: 10px; }
+  top: 50%;
+  left: 50%; }
 
 /* line 30, /Users/rapegoto/code/rapegoto/front-adv-middleman-rafael/source/stylesheets/components/_card.css.scss */
 .card-text {
@@ -9442,6 +9446,10 @@ button.close {
   .feature h2 img {
     height: 23px;
     margin-right: 5px; }
+
+/* line 1, /Users/rapegoto/code/rapegoto/front-adv-middleman-rafael/source/stylesheets/pages/_trip_ideas.css.scss */
+.banner-margin {
+  margin: 10px; }
 
 /*
 ==============================================
