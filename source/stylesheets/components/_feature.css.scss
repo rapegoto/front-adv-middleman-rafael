@@ -2,11 +2,13 @@
   font-size: 17px;
   line-height: 25px;
   font-weight: bold;
-  color: #666666;
+  // color: #666666;
+  color: $gray-darker;
 }
 .feature p {
   font-size: 15px;
-  color: #B3B3B3;
+  // color: #B3B3B3;
+  color: $gray-dark;
   font-weight: 300;
 }
 .feature img {
