@@ -6,6 +6,7 @@
 // General style
 $font-family-sans-serif:  $base-font;
 $body-bg:                 white;
+$body-bg:                 #92CDDE;
 $font-size-base:          $base-size;
 $line-height-base:        $base-height;
 $headings-font-family:    $header-font;
@@ -18,6 +19,7 @@ $brand-danger:    $red;
 $brand-warning:   $orange;
 
 // Buttons / inputs radius
-$border-radius-base:  2px;
-$border-radius-large: 2px;
-$border-radius-small: 2px;
+// I changed all them from 2px to 5px;
+$border-radius-base:  5px;
+$border-radius-large: 5px;
+$border-radius-small: 5px;

@@ -2,9 +2,12 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+// @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Josefin+Slab:400,100,300,700,600");
+// <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,100,300,700,600' rel='stylesheet' type='text/css'>
 $base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Raleway", "Helvetica", "sans-serif";
+// $header-font: "Raleway", "Helvetica", "sans-serif";
+$header-font: "Josefin Slab', serif";
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -25,9 +28,10 @@ $base-height: 1.4;
  * ------------------------------------- */
 // Scheme
 $brand-color: #D23333;
-
-$red: #EE5F5B;
-$blue: #469AE0;
+// $red: #EE5F5B
+$red: #D23833;
+// $blue: #469AE0;
+$blue: #0000FF;
 $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
