@@ -21,7 +21,7 @@ activate :autoprefixer
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
-#
+page "source/test_sidebar.html", :layout => :sidebar_layout #added bY RAFA but it doesnt work
 # A path which all have the same layout
 # with_layout :admin do
 #   page "/admin/*"

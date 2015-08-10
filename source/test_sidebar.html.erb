@@ -1,0 +1,27 @@
+---
+title: Le Wagon Middleman Contact
+---
+
+<div class="sidebar">
+  <ul >
+    <li>uno</li>
+    <li>dos </li>
+    <li>tres</li>
+  </ul>
+</div>
+
+<div class="text-center padded ">
+  <h1>The super Team</h1>
+
+  <% data.team.each do  |member| %>
+    <div class="div-center-badge">
+      <div class="badge-container">
+        <span class="badge">3</span>
+        <%= image_tag member.picture, :width => '40', :height => 40, :class => 'img-circle'%>
+      </div>
+    </div>
+      <h2><%= member.name %></h2>
+      <p><%= member.description %></p>
+  <% end %>
+</div>
+

@@ -1,0 +1,27 @@
+.container-margin-left {
+  margin-left: 200px;
+}
+
+
+//
+.badge-container {
+  position: relative;
+  width: 40px;
+  text-aogn: center;
+  display: inline-block;
+}
+
+.badge {
+  position:absolute;
+  background: #DD5555;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  top: -8px;
+  right: -6px;
+  line-height: 20px;
+}
+
