@@ -1,7 +1,10 @@
 ---
 title: Le Wagon Middleman Rafael
 ---
-
+<div class="padding-top"></div>
+<!-- La div dessus sert å pousser la banniere vers le bas pour qu'elle ne soit pas caché par la navbar
+(qu'est en position fixed). una autre maniere est de mettre de la marge sur la banniere (70px)
+puis donner en css top:0 to the navbar -->
 <div class="banner text-center" style="background-image: url('https://unsplash.it/2000/500?image=744')">
    <div class="banner-shadow"></div>
    <div class="banner-content fade-and-slide">
@@ -9,6 +12,7 @@ title: Le Wagon Middleman Rafael
      <p>Very cool stuff, useful and smart</p>
      <%= link_to "GET IT", "/trip_ideas.html", class: "btn btn-primary btn-lg" %>
      <%= link_to "TEST SIDE BAR", "/test_sidebar.html", class: "btn btn-primary btn-lg" %>
+     <%= link_to "FIND AS IN A MAP", "#map", class: "btn btn-primary btn-lg" %>
    </div>
  </div>
 
